@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  padding:0;
+}
+.image1{
+  background-image: url('./rty.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+.image2{
+  background: black;
+  	opacity: 0.8;
+    min-height: 100vh;
+}
+.leftheader{
+  display: flex; 
+  align-items: flex-start;
+  font-size: 20px;
+  margin-inline-start: 20px;
+  margin-top: 15px;
+  color: white;
+}
+.rightheader{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+width: 100%;
+display: flex;
+align-items: flex-end;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 10px;
+margin-inline-start: 800px;
+color: white;
+}
+.rightheader a{
+background-color: pink;
+padding:5px;
+color: white;
+}
+.centertext{
+  display: flex;
+
+}
+.centertext h1{
+align-items: flex-start;
+  margin-top: 15%;
+  margin-left: 25%;
+  color: white;
+}
+.centertext p{
+  font-size:18px;
+  position:absolute;
+  margin-top: 20%;
+  color: white;
+  margin-left: 25%;
+  text-align: right;
+
+}
+.roundimage{
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 10%;
+  align-items: flex-end;
+  border-radius: 50%;
+height: 250px;
+width: 250px;
+}
