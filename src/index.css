@@ -6,33 +6,35 @@ body{
   background-image: url('./rty.png');
   background-size: cover;
   min-height: 100vh;
+  margin:0;
+  padding:0;
 }
 .image2{
   background: black;
   	opacity: 0.8;
     min-height: 100vh;
+    margin:0;
+  padding:0;
 }
-.leftheader{
+/* .leftheader{
   display: flex; 
   align-items: flex-start;
   font-size: 20px;
   margin-inline-start: 20px;
-  margin-top: 15px;
-  color: white;
-}
-.rightheader{
-  font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
-width: 100%;
+  color: black;
+  margin: 0;
+} */
+.navbar{
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
 display: flex;
 align-items: flex-end;
-justify-content: space-evenly;
-flex-wrap: wrap;
-margin-top: 10px;
+justify-content:space-evenly;
 margin-inline-start: 800px;
-color: white;
+margin-top: 5px;
+margin-bottom: 5px;
 }
-.rightheader a{
+.navbar a{
 background-color: pink;
 padding:5px;
 color: white;
@@ -65,4 +67,47 @@ align-items: flex-start;
   border-radius: 50%;
 height: 250px;
 width: 250px;
+}
+.elements{
+  margin-top:100px;
+  text-align: center;
+}
+
+.layouts{
+  margin-top:100px;
+  text-align: center;
+  color: blue;
+
+}
+.signup{
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.signup label{
+  /* background-color: black;
+  display: flex; 
+  flex-direction: column;  
+  justify-content: space-evenly;
+  margin-top:100px;
+  text-align: center;
+  color: orangered;
+  padding-right: 30%;
+  padding-left:30% ; */
+  display: block;
+  text-align: center;
+}
+.signup input{
+  width: 1000px;
+  margin: 10px;
+  padding:6px 10px ;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 200px;
+}
+.notavailable{
+  align-self: center;
+  align-content: center;
+  text-align: center;
 }
