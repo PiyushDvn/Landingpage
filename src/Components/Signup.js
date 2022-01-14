@@ -11,8 +11,7 @@ const Signup = () => {
         const details ={name , dob, email};
         fetch(' ')
         //history.go(-1);    
-          history.push('/');
-
+          history.push('/Landingpage');
     }     
     return (  
          <div className="signup">
