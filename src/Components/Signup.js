@@ -6,7 +6,6 @@ const Signup = () => {
     const [dob ,setDOB]=useState('');
     const [email ,setEmail]=useState('');
     const history =useHistory();
-
     const handleSignup =(e) => {
         e.preventDefault();
         const details ={name , dob, email};
@@ -15,7 +14,6 @@ const Signup = () => {
           history.push('/');
 
     }     
-
     return (  
          <div className="signup">
                 <h2> Sign Up </h2>

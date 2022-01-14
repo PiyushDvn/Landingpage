@@ -5,31 +5,30 @@ import Navbar from './Components/navbar';
 import Layouts from './Components/layouts';
 import Signup from './Components/Signup';
 import Notfound from './Components/notfound';
-
-  function App() {
-    return (
-      <Router>
+function App() {
+  return (
+    <Router>
+      <div className="Navbarr">
+        <Navbar />
         <Switch>
-          <div className="Navbarr">
-            <Navbar />
-            <Route exact path="/">
-              <Landingpage />
-            </Route>
-            <Route path="/elements">
-              <Elements />
-            </Route>
-            <Route path="/layouts">
-              <Layouts />
-            </Route>
-            <Route path="/signup">
-              <Signup />
-            </Route>
-            <Route path="*">
-              <Notfound />
-            </Route>
-          </div>
+          <Route exact path="/landingpage">
+            <Landingpage />
+          </Route>
+          <Route path="/elements">
+            <Elements />
+          </Route>
+          <Route path="/layouts">
+            <Layouts />
+          </Route>
+          <Route path="/signup">
+            <Signup />
+          </Route>
+          <Route path="*">
+            <Notfound />
+          </Route>
         </Switch>
-      </Router>
-    );
-  }
+      </div>
+    </Router>
+  );
+}
 export default App;
